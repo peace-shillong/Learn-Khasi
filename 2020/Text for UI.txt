@@ -1,0 +1,44 @@
+A. Welcome Activity with Fragments
+1.
+Welcome to Learn Khasi
+
+Are you new to the App?
+Yes, No 
+
+Login with Google
+
+2. 
+If YES
+Tell us something about you:
+
+1. Do you know Khasi?
+I want to learn Khasi (Learner)
+I know how to speak Khasi (Speaker)
+I know how to speak and read Khasi (Reader)
+I know how to speak, read and write in Khasi (Writer)
+
+Next Button
+
+2. What other languages do you know? 
+I know Hindi, I can : Speak, Read, Write
+I know English : Speak/Read/Write
+I know Garo : Speak/Read/Write
+
+Save and continue
+
+Login with Google / Skip Login
+
+If No: 
+Login with Google / Skip login
+
+3. When user skips Login
+Display HomeFragment as guest, not logged in
+User can view and search only, cannot ask new sentence or word.
+Show: Login with Google and let's get involved.
+
+
+
+UI has been create in Fluid UI using dkharkyrshan mail
+
+B. MainActivity 
+Has 5 Fragments: Home, Learn, Words, Sentences,Account
